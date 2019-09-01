@@ -1,0 +1,8 @@
+# fixtures/user.yml
+
+App\Entity\User:
+  user_{1..10}:
+    firstname: <firstName()>
+    lastname: <lastName()>
+    email: <email()>
+    birthday: <dateTimeBetween('-100 years', '-10 years')>
